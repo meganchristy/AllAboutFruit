@@ -1,0 +1,146 @@
+/* This is the styles for all about fruit */
+
+body {
+	background-color: rgb(255, 0, 71);
+	background-image: url(http://www.carlagoldenwellness.com/wp-content/uploads/2013/02/fruit-salad.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0;
+
+	font-family: 'Londrina', sans-serif;
+}
+
+p{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+
+	font-family: "Londrina", sans-serif;
+}
+
+h1{
+	color: white;
+	background: rgba(255, 0, 71, .75);
+	text-align: center;
+	font-size: 8em;
+
+	font-family: 'Kavoon', sans-serif;
+
+	margin: 0px;
+	margin-top: 40px;
+
+}
+
+.transparent_b{
+	background-color: rgba(86, 43, 139, .5);
+	margin-left: 90px;
+	margin-right: 90px;
+
+    border-radius: 25px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.image_b{
+	background-color: rgba(172, 230, 0, .5);
+	margin-left: 90px;
+	margin-right: 90px;
+
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+aside { 
+    display: block;
+    width:20px;
+}
+
+col { 
+    display: table-column;
+}
+
+li{
+	color: white;
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+
+	font-family: 'Londrina', sans-serif;
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: rgba(255, 0, 71, .75);
+	font-size: 2em;
+}
+
+li:hover{
+	background-color: white;
+	color: rgb(255, 0, 71);
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a{
+	background-color: white;
+	color: rgb(255, 0, 71);
+	padding: 10px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover{
+	color: white;
+	background-color: rgb(255, 0, 71);
+}
+
+.links{
+	color: white;
+}
+
+.links:hover{
+	color: rgb(250, 201, 51);
+}
+
+
+@font-face{
+	font-family: 'SFArchRival';
+	src:url("../fonts/SF-Arch-Rival/SF_Arch_Rival.ttf") format("truetype");
+
+}
+
+@font-face{
+	font-family: 'Londrina';
+	src:url("../fonts/londrina/LondrinaSolid-Regular.otf") format("opentype");
+
+}
+
+@font-face{
+	font-family: 'Kavoon';
+	src:url("../fonts/kavoon/Kavoon-regular.otf") format("opentype");
+
+}
