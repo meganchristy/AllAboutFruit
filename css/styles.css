@@ -56,14 +56,19 @@ h1{
 
 }
 
-aside { 
-    display: block;
-    width:20px;
+.transparent_orange{
+	background-color: rgba(250, 201, 51, .5);
+	margin-left: 90px;
+	margin-right: 90px;
+
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
-col { 
-    display: table-column;
-}
 
 li{
 	color: white;
@@ -124,6 +129,14 @@ li:hover{
 
 .links:hover{
 	color: rgb(250, 201, 51);
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
 }
 
 
